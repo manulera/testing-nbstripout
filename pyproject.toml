@@ -1,0 +1,16 @@
+[tool.poetry]
+authors = ["Manuel Lera-Ramirez <manulera14@gmail.com>"]
+description = ""
+name = "testing-nbstripout"
+package-mode = false
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipykernel = "^6.29.5"
+nbstripout = "^0.7.1"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
