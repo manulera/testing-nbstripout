@@ -16,10 +16,6 @@ poetry add -G dev pre-commit nbstripout
 
 # Add the hook as seen in the .pre-commit-config.yaml file
 
-# Include the custom_nbstripout.sh file in the root directory
-# Make sure to make it executable
-chmod +x custom_nbstripout.sh
-
 # Activate the hooks
 pre-commit install
 ```
