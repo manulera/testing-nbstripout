@@ -23,3 +23,7 @@ chmod +x custom_nbstripout.sh
 # Activate the hooks
 pre-commit install
 ```
+
+## Extra: make jupyter notebooks save often
+
+I personally always forget to save my notebooks, so I normally change the settings of vscode to autosave. You can do so by going to settings and changing the `files.autoSave` to `afterDelay` and `files.autoSaveDelay` to `1000`. As far as I know there is no way to save on execution of cell, which would be ideal.
